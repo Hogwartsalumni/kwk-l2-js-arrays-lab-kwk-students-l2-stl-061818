@@ -23,7 +23,8 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  
+  const newStart = ['Arnold', ...drivers];
+  return newStart;
 }
 
 function removeLastDriver(name) {
