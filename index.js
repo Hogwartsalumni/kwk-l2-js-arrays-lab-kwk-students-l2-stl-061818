@@ -33,6 +33,6 @@ function removeLastDriver(name) {
 }
 
 function removeFirstDriver(name) {
-  const newFrist = drivers.slice(-2);
+  const newFiist = drivers.slice(-2);
   return newFirst;
 }
